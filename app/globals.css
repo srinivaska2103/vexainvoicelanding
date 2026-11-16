@@ -1,0 +1,109 @@
+@import "tailwindcss";
+
+:root {
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  --primary-blue: #2563EB;
+  --dark-blue: #1E40AF;
+  --heading-color: #0F172A;
+  --body-color: #475569;
+  --section-bg: #F8FAFC;
+  --border-color: #E2E8F0;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: var(--font-sans);
+}
+
+body {
+  background-color: #FFFFFF;
+  color: #475569;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom subtle utility styles */
+.text-heading {
+  color: #0F172A;
+}
+
+.bg-section {
+  background-color: #F8FAFC;
+}
+
+.border-subtle {
+  border-color: #E2E8F0;
+}
+
+/* Subtle glow effects for hero and cards */
+.blue-glow {
+  box-shadow: 0 20px 40px -15px rgba(37, 99, 235, 0.12);
+}
+
+.subtle-card-shadow {
+  box-shadow: 0 4px 20px -2px rgba(15, 23, 42, 0.05);
+}
+
+.subtle-card-shadow:hover {
+  box-shadow: 0 12px 30px -4px rgba(15, 23, 42, 0.08);
+}
+
+/* Smooth floating phone animation */
+@keyframes phoneFloat {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-14px);
+  }
+}
+
+
+@keyframes floatCard1 {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+@keyframes floatCard2 {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-7px);
+  }
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.floating-phone {
+
+  animation: phoneFloat 5s ease-in-out infinite;
+}
+
+.floating-card-1 {
+  animation: floatCard1 6s ease-in-out infinite;
+}
+
+.floating-card-2 {
+  animation: floatCard2 7s ease-in-out 1s infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .floating-phone,
+  .floating-card-1,
+  .floating-card-2 {
+    animation: none;
+  }
+}
+
