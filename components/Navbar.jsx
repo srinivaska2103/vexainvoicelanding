@@ -137,7 +137,7 @@ export default function Navbar() {
               {/* Subtle light sweep reflection */}
               <div className="absolute inset-0 -translate-x-full group-hover:translate-x-full bg-gradient-to-r from-transparent via-white/20 to-transparent transition-transform duration-700 ease-out pointer-events-none" />
               
-              <span className="relative z-10 tracking-tight">Start Free Trial</span>
+              <span className="relative z-10 tracking-tight">Get Started</span>
               <div className="relative z-10 w-4 h-4 rounded-full bg-white/20 flex items-center justify-center transition-transform duration-200 group-hover:translate-x-0.5">
                 <ArrowRight className="w-2.5 h-2.5 stroke-[3]" />
               </div>
@@ -190,7 +190,7 @@ export default function Navbar() {
               href={APP_CONFIG.routes.signup}
               className="w-full inline-flex items-center justify-center gap-1.5 py-2.5 text-sm font-bold text-white bg-blue-600 hover:bg-blue-700 rounded-xl shadow-md shadow-blue-500/20"
             >
-              <span>Start Free Trial</span>
+              <span>Get Started</span>
               <ArrowRight className="w-4 h-4" />
             </a>
           </div>

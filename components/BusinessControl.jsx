@@ -302,7 +302,7 @@ export default function BusinessControl() {
                   href={APP_CONFIG.routes.signup}
                   className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3.5 text-sm sm:text-base font-semibold text-blue-700 bg-white hover:bg-blue-50 active:bg-blue-100 rounded-xl shadow-lg transition-all transform hover:-translate-y-0.5"
                 >
-                  <span>Start Free Trial</span>
+                  <span>Get Started Now</span>
                   <ArrowRight className="w-4 h-4" />
                 </a>
                 

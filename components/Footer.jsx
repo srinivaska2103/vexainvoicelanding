@@ -141,7 +141,7 @@ export default function Footer() {
               </li>
               <li>
                 <a href={APP_CONFIG.routes.signup} className="hover:text-white transition-colors focus:outline-none focus:ring-1 focus:ring-blue-400 rounded">
-                  Start Free Trial
+                  Get Started
                 </a>
               </li>
               <li>

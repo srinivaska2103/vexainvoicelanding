@@ -34,8 +34,8 @@ export default function FAQ() {
       a: 'The Custom Online Shop Store allows your business to publish a clean, text-based digital catalogue accessible via a dedicated link or QR code. Customers can browse your products, search items, add them to a cart, and place orders directly. Your team can then review orders in your dashboard and convert them into sales invoices in one click.'
     },
     {
-      q: 'How does the free trial work?',
-      a: 'When you register your company account, you receive a 7-day full access free trial for core features. No credit card is required to begin. At the end of the trial, you can choose to activate the ₹599 monthly subscription or upgrade to lifetime access.'
+      q: 'How does billing and access work?',
+      a: 'VEXA Invoice is a commercial pay-and-use product. Simply register your business, choose between our affordable ₹599 monthly subscription or the ₹59,999 Lifetime License, and enjoy immediate uninterrupted access to all enterprise billing and inventory tools.'
     },
     {
       q: 'Can I cancel my monthly subscription?',
@@ -75,7 +75,7 @@ export default function FAQ() {
             Frequently Asked Questions
           </h2>
           <p className="mt-4 text-base sm:text-lg text-slate-600">
-            Everything you need to know about VEXA Invoice features, trials, and packages.
+            Everything you need to know about VEXA Invoice features, plans, and packages.
           </p>
         </ScrollReveal>
 

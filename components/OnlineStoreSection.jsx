@@ -797,7 +797,7 @@ export default function OnlineStoreSection() {
                 href={APP_CONFIG.routes.signup}
                 className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-7 py-3 rounded-xl bg-blue-600 hover:bg-blue-700 active:bg-blue-800 text-white font-bold text-sm shadow-md shadow-blue-500/25 transition-all transform hover:-translate-y-0.5"
               >
-                <span>Start Free Trial</span>
+                <span>Get Started Now</span>
                 <ArrowRight className="w-4 h-4" />
               </a>
               <a

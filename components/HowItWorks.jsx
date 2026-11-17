@@ -8,7 +8,7 @@ export default function HowItWorks() {
       step: '01',
       icon: UserPlus,
       title: 'Create Your Account',
-      description: 'Register your company through the standard signup workflow. Verify your email to activate your account and start your 7-day free trial immediately.'
+      description: 'Register your company through the standard signup workflow. Verify your email and select your plan to begin using your account immediately.'
     },
     {
       step: '02',
@@ -75,7 +75,7 @@ export default function HowItWorks() {
         </div>
 
         <div className="mt-12 text-center text-xs text-slate-500 max-w-2xl mx-auto">
-          * Account creation integrates with standard email verification and trial activation. The backend remains authoritative for company verification and subscription status.
+          * Account creation integrates with standard email verification and subscription activation. The backend remains authoritative for company verification and subscription status.
         </div>
       </div>
     </section>

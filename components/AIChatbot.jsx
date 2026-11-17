@@ -25,7 +25,7 @@ export default function AIChatbot() {
       sender: 'assistant',
       text: "Hi! 👋 Welcome to VEXA Invoice. I'm here to help you find the right billing, inventory, and POS solution for your business.",
       actions: [
-        { label: 'Start Free Trial', href: APP_CONFIG.routes.signup, primary: true },
+        { label: 'Get Started', href: APP_CONFIG.routes.signup, primary: true },
         { label: 'View Pricing', href: APP_CONFIG.routes.pricing }
       ]
     }
@@ -42,7 +42,7 @@ export default function AIChatbot() {
     'What features do you offer?',
     'Explain the ₹599 monthly plan',
     'What is included in the ₹59,999 lifetime plan?',
-    'How do I start my free trial?',
+    'How does billing and access work?',
     'How does the Custom Online Shop Store work?',
     'Does VEXA Invoice support barcode and inventory management?',
     'How can I contact support?'
@@ -106,9 +106,9 @@ export default function AIChatbot() {
         {
           id: Date.now() + 1,
           sender: 'assistant',
-          text: "I'm having trouble reaching the server right now. You can start a free trial directly or chat with our team on WhatsApp.",
+          text: "I'm having trouble reaching the server right now. You can get started directly or chat with our team on WhatsApp.",
           actions: [
-            { label: 'Start Free Trial', href: APP_CONFIG.routes.signup, primary: true },
+            { label: 'Get Started', href: APP_CONFIG.routes.signup, primary: true },
             { label: 'Chat on WhatsApp', href: APP_CONFIG.whatsappUrl }
           ],
           isError: true

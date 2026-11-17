@@ -192,7 +192,7 @@ export default function Hero() {
                   href={APP_CONFIG.routes.signup}
                   className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3.5 text-base font-semibold text-white bg-blue-600 hover:bg-blue-700 active:bg-blue-800 rounded-xl shadow-lg shadow-blue-500/25 hover:shadow-blue-500/35 transition-all transform hover:-translate-y-0.5 active:translate-y-0 cursor-pointer"
                 >
-                  <span>Start Free Trial</span>
+                  <span>Get Started Now</span>
                   <ArrowRight className="w-4 h-4" />
                 </a>
 

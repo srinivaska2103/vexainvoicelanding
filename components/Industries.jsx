@@ -106,7 +106,7 @@ export default function Industries() {
               href={APP_CONFIG.routes.signup}
               className="inline-flex items-center gap-2 px-7 py-3.5 text-sm sm:text-base font-semibold text-white bg-blue-600 hover:bg-blue-700 rounded-xl shadow-md shadow-blue-500/20 hover:shadow-blue-500/30 transition-all hover:-translate-y-0.5"
             >
-              <span>Start Free Trial for Your Business</span>
+              <span>Get Started for Your Business</span>
               <ArrowRight className="w-4 h-4" />
             </a>
           </div>

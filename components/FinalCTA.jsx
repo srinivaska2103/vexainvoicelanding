@@ -45,7 +45,7 @@ export default function FinalCTA() {
 
             {/* Concise Subtitle */}
             <p className="text-sm sm:text-base text-slate-300 max-w-lg mx-auto mb-7 leading-relaxed">
-              Start your 7-day free trial. Manage billing, inventory, POS, and customer orders seamlessly in one place.
+              Get started today. Manage billing, inventory, POS, and customer orders seamlessly in one powerful pay-and-use system.
             </p>
 
             {/* Action Buttons with Theme-based Blue Styling */}
@@ -54,7 +54,7 @@ export default function FinalCTA() {
                 href={APP_CONFIG.routes.signup}
                 className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-3.5 text-sm sm:text-base font-bold text-white bg-blue-600 hover:bg-blue-500 active:bg-blue-700 rounded-xl shadow-lg shadow-blue-600/30 hover:shadow-blue-600/40 transition-all transform hover:-translate-y-0.5"
               >
-                <span>Start 7-Day Free Trial</span>
+                <span>Get Started Now</span>
                 <ArrowRight className="w-4 h-4 stroke-[2.5]" />
               </a>
 
